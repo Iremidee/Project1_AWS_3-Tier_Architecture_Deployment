@@ -20,3 +20,6 @@ In this documentation, I will set up and deploy a three tier architecture using 
 * Demonstrate real-time data access from the database
 # Requirements
 * An AWS account
+# Documentation
+* I will be using the official AWS documentation.
+* Reference: https://workshops.aws/card/Highly%20Available%20Web%20Application%20Workshop 
