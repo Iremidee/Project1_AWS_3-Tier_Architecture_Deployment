@@ -21,6 +21,8 @@ In this documentation, I will set up and deploy a three tier architecture using 
 * Demonstrate real-time data access from the database
 ## Requirements
 * An AWS account
+## Summary
+This architecture ensures high availability, scalability, and reliability by distributing the load, monitoring instance health, and scaling resources dynamically. The web tier serves the front-end and routes API calls, the application tier handles business logic and interacts with the database, and the database tier provides robust data storage and retrieval.
 ## Documentation
 * I will be using the official AWS documentation.
 * Reference: https://workshops.aws/card/Highly%20Available%20Web%20Application%20Workshop 
