@@ -1,7 +1,10 @@
 # Project1_AWS_3-Tier_Architecture_Deployment
 ## Architecture Overview
 The three-tier architecture is the most popular implementation of a multi-tier architecture and consists of a single presentation/web tier, logic tier, and data tier. This pattern divides the infrastructure into 3 separate layers: one public and 2 private layers. The idea is that the public layer acts as a shield to the private layers. Anything in the public layers is publicly accessible but resources in the private layers is only accessible from inside the network.
+
+
 ![Capture 3](https://github.com/user-attachments/assets/56d0874f-1c28-4f3a-853e-557ba2fac9c4)
+
 
 The architectural diagram above provides a clear, visual representation of the system's structure and components, showcasing how they interact to achieve the desired functionality. 
 * It serves as a blueprint for stakeholders, enabling them to understand the overall design, relationships, and data flow.
