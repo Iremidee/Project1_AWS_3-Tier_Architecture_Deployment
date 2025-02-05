@@ -1,8 +1,8 @@
-# Step 1 - Download Code from GitHub Repository
-## Learning Objectives in Application Code:
-* App Tier: The application tier consists of a Node.js application. This part of the code handles the business logic and data processing for your application.
-* Web Tier: The web tier utilizes Nginx as a web server with specific configuration details. It serves the frontend of your application, manages API calls, and interacts with the application tier.
+# Use Case
+Design a highly available and scalable AWS 3-tier architecture for application that can cater to users across multiple regions. 
 
-Understanding these tiers and their configurations is crucial for deploying and managing your three-tier architecture on AWS effectively.
+# Scenario
+A global SaaS company wants to design a highly available and scalable AWS 3-tier architecture for their application, which serves users from multiple regions across the world. They require seamless access control for their employees and customers, with security measures in place to protect sensitive data and prevent unauthorized access.
 
-# Step 2 - S3 Bucket Creation
+# Activity
+Design a robust AWS architecture that spans multiple regions, ensuring high availability, scalability, and secure user access. Implement Single Sign-On (SSO) to enable centralized authentication and access control for employees and customers.
