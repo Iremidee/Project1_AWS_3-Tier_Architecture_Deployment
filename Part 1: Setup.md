@@ -1,4 +1,5 @@
-# The Underlying Network Architecture 
+# Networking and Security - Part 1
+## The Underlying Network Architecture 
 This is the base environment upon which the 3-tier application architecture will be built.
 This base network consists of:
 * A VPC
@@ -6,3 +7,5 @@ This base network consists of:
 * Two (2) private subnets spread across two availability zones (Application Tier)
 * Two (2) private subnets spread across two availability zones (Database Tier)
 * One (1) public route table that connects the public subnets to an internet gateway
+
+# Web Server Tier 
