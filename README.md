@@ -24,11 +24,11 @@ In this documentation, I will set up and deploy a three tier architecture using 
 * Web Servers
 * Application Load Balancers
 * Internet Gateway
-* Route 53 
-## Project Goals
-* Set up a three tier architecture
-* Deploy an application accessible from a browser
-* Demonstrate real-time data access from the database
+* Route 53
+## Scenario
+A rapidly growing fintech startup in Africa wants to design a highly available and scalable AWS 3-tier architecture for their web app. They require seamless access control for their employees and customers, with security measures in place to protect sensitive data and prevent unauthorized access.
+## Project Goal
+* Design and deploy a highly available and scalable AWS 3-tier architecture. 
 ## Requirements
 * An AWS account
 ## Summary
