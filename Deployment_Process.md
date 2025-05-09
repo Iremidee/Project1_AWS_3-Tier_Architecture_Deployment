@@ -20,22 +20,32 @@ Tag auto-generation, which will tag all of the resources of the VPC. This helps 
 ![VPC3](https://github.com/user-attachments/assets/d915532e-5cec-4f84-a67e-89a61a8355ac)
 ![VPC4](https://github.com/user-attachments/assets/b44302ab-dd9b-47a3-869f-0d6c30503f2b)
 
-AWS has updated the VPC console to include a preview that allows you to visually see your subnets, availability zones, route tables, and network connections as you create them. You can hover over a subnet, and it will highlight in blue the route that will occur, making it easy to see your connections.
+AWS has updated the VPC console to include a preview that allows us to visually see our subnets, availability zones, route tables, and network connections as you create them. You can hover over a subnet, and it will highlight in blue the route that will occur, making it easy to see your connections.
+
 ![VPC Preview](https://github.com/user-attachments/assets/0f9bdcf2-4b94-4efb-bc4e-bd67ba130c3d)
 
-When ready, click “Create VPC.” You will get real-time updates of the workflow being created.
+When ready, click “Create VPC.” And here is the real-time updates of the workflow being created.
+
 ![VPC Workflow](https://github.com/user-attachments/assets/ed6e792e-d4bc-4d59-b8ea-7dc0909be3e1)
 ![VPC Workflow3](https://github.com/user-attachments/assets/8c9ad7bc-3cf8-43b4-8340-282603f1441d)
 
-When all of your VPC resources have finished creating, click “View VPC.”
+When all of the VPC resources have finished creating, click “View VPC.”
+
 ![VPC Created](https://github.com/user-attachments/assets/49153834-326a-48b4-8d55-89784d085ae5)
-We’ve now created a VPC, 2 public subnets, 4 private subnets, a NAT gateway, an internet gateway, and some default route tables. Before we move further, navigate to “Subnets” on the left side menu of the VPC console and select one of the subnets you have created. Under the “Actions” tab, expand the down arrow and select “Edit subnet settings.”
+
+I just created a VPC, 2 public subnets, 4 private subnets, a NAT gateway, an internet gateway, and some default route tables. 
+Before I move further, I navigated to “Subnets” on the left side menu of the VPC console and selected one of the subnets I have created. Under the “Actions” tab, expanded the down arrow and selected “Edit subnet settings”.
+
 ![Subnets](https://github.com/user-attachments/assets/4ed81440-8fb4-4201-babb-5766808013d1)
-Click “Enable auto-assign IPv4 address” and “Save.” Do this for all 6 of your subnets.
+
+Click “Enable auto-assign IPv4 address” and “Save”, I did this for all 6 the created subnets.
+
 ![Subnets 1](https://github.com/user-attachments/assets/583e547e-5210-48b6-9178-236b8afd517d)
 ![Subnets2](https://github.com/user-attachments/assets/2ad2a51a-9e21-4dcc-a7e3-0bfe10a7030d)
 
-# Web Server Tier - Part 2
+# Creating a Web Server Tier - Part 2
+The web server tier also know as the presentation tier houses the user interface, such as the website that a user or client navigates to. It can also be thought of as the “front end”.
+In this section I will create my first tier that represents the front end user interface. I need to creat an auto scaling group of EC2 instances that will host a custom webpage.
 
 # Application Tier - Part 3
 
